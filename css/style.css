@@ -1,0 +1,47 @@
+
+::-moz-selection {
+	background-color: black;
+	color: white;
+}
+
+/*Контент*/
+.main {
+	padding: 10px;
+}
+
+.main img {
+	margin-right: 15px;
+	border: 10px solid #e2e2e2;
+}
+
+.error{
+	margin:10px 0;
+	border-bottom:2px solid red;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+/* ФОРМА */
+
+form{
+	display: flex;
+	flex-direction:column;
+}
+
+input {
+	margin:10px 0;
+	padding:10px;
+	border:unset;
+	border-bottom:2px solid #a4a0a0;
+	outline:none;
+	
+}
+
+select{
+	margin:10px 0;
+	padding:10px;
+	border:unset;
+	border-bottom:2px solid #a4a0a0;
+	outline:none;
+	
+}

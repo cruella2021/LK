@@ -1,0 +1,14 @@
+RewriteEngine  On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* index.php?querysystemyrl=$0 [QSA]
+
+Options -Indexes
+
+#<FilesMatch "\.(php|twig|log)$">
+#	Deny from all
+#</FilesMatch>
+
+#<FilesMatch "index.php$">
+#	Allow from all
+#</FilesMatch>

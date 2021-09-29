@@ -1,0 +1,63 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+html{
+	background:url("../images/bg.jpg") repeat;
+	
+}
+
+body {
+	height: 100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-family:Montserrat,sans-serif;
+}
+
+form {
+	display: flex;
+	flex-direction:column;
+	width:400px;
+}
+input {
+	margin:10px 0;
+	padding:10px;
+	border:unset;
+	border-bottom:2px solid #a4a0a0;
+	outline:none;
+	
+}
+button {
+	padding:10px;
+	background:#aeabab;
+	border:unset;
+	cursor:pointer;
+	border-radius:4px;
+}
+
+.error{
+	margin:10px 0;
+	border-bottom:2px solid red;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.notification{
+
+	margin:10px 0;
+	border-bottom:2px solid rgba(5, 255, 109, 0.27);
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.none{
+	display:none;
+	/* Переименовать на visible-none*/
+
+}
+
+
